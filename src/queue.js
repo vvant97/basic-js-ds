@@ -57,14 +57,6 @@ class Queue {
   }
 }
 
-let queue = new Queue();
-
-queue.enqueue(5);
-queue.enqueue(6);
-queue.enqueue(7);
-
-console.log(queue.head);
-
 module.exports = {
   Queue
 };
